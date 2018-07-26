@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- normalize -->
+    <link ref="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,400,700"
+    rel="stylesheet">
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <title>Wood</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+            <a class="navbar-brand font-title"
+                href="index.html">Steve's Joinery Guide</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-tools"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Tools</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./tools.html#id-header-handtools">Hand Tools</a>
+                      <a class="dropdown-item" href="./tools.html#id-header-powertools">Power Tools</a>
+                    </div>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-wood"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Wood</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./wood.html#id-header-softwood">Soft Wood</a>
+                      <a class="dropdown-item" href="./wood.html#id-header-hardwood">Hard Wood</a>
+                      <a class="dropdown-item" href="./wood.html#id-header-engineered">Engineered Materials</a>
+                    </div>
+                  </li>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="./search.html">Search</a></button>
+              </form>
+            </div>
+          </nav><!-- navbar -->
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="font-muli-200">TYPES OF WOOD</h2>
+        </div>
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-lg-12">
+          Wood can be catigorized into two types, hard and soft.
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 id="id-header-softwood">Soft Wood</h2>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" id="pine-button" class="btn btn-secondary">Pine</button>
+            <button type="button" id="fir-button" class="btn btn-secondary">Fir</button>
+            <button type="button" id="cedar-button" class="btn btn-secondary">Cedar</button>
+          </div>
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <img id="pine-image" src="./images/wood/pine.jpg" height="200px" width="200px" />
+          <img id="fir-image" style="display:none;" src="./images/wood/fir.jpg" height="200px" width="200px"/>
+          <img id="cedar-image" style="display:none;" src="./images/wood/cedar.jpg" height="200px" width="200px" />
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row"><!-- Hard Wood -->
+        <div class="col-lg-12">
+          <h2 id="id-header-hardwood">Hard Wood</h2>
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row"><!-- Engineered Materials -->
+        <div class="col-lg-12">
+          <h2 id="id-header-engineered">Engineered Materials</h2>
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row"><!-- Pagination -->
+        <div class="col-lg-12">
+            <nav aria-label="pagination">
+            <ul class="pagination center">
+              <li class="page-item">
+                <a class="page-link" href="./tools.html">Previous</a></li>
+              <li class="page-item">
+                <a class="page-link" href="./index.html">1</a></li>
+              <li class="page-item">
+                <a class="page-link" href="./tools.html">2</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="./wood.html">3 <span class="sr-only">(current)</span></a></li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Next</a>
+              </li>
+            </ul>
+          </nav><!-- pagination -->
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+
+    <!-- JavaScript for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./javascript/wood.js"></script>
+  </body>
+</html>

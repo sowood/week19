@@ -1,0 +1,74 @@
+/* background colors */
+.bg-color-albescent-white{ background-color: #F1E0C5;}
+.bg-color-dingley{ background-color: #667348;}
+.bg-color-kabul{ background-color: #5B4F3E;}
+.bg-color-Kilamanjaro { background-color: #0F0201;}
+.bg-color-linen { background-color: #f2f2f2;}
+
+.font-muli-200{ font-family: 'Muli', sans-serif; font-weight: 200; }
+.font-muli-400{ font-family: 'Muli', sans-serif; font-weight: 400; padding-top: 100px;}
+.font-muli-700{ font-family: 'Muli', sans-serif; font-weight: 700; }
+
+
+
+.section-title{
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+
+
+.half-width{
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.row {
+  margin: 0 auto;
+  text-align:center;
+}
+
+.joint-image {
+  height:100px;
+  width:100px;
+  margin: 0 auto;
+}
+
+.title-box{
+  background-color: #EFE2AD;;
+  color: black;
+  font-family: 'Muli', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+
+.joint-card {
+  display:inline-block;
+  margin: 4px 1px 1px 1px;
+  text-align:center;
+  width: 400px;
+  height: 400px;
+}
+
+.joint-button {
+  background-color: #D87251;
+  color: white;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 4px 12px;
+  border-width:0;
+  vertical-align: bottom;
+}
+
+.tool-image {
+  max-height: 200px;
+  max-width: 350px;
+  margin: 0 auto;
+  object-fit: contain;
+}
